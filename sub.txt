@@ -1,0 +1,7 @@
+private long sum(int a, int b) {
+    if(a-b < Integer.MIN_VALUE){
+	log.info("Sub of a & b over int value");
+	return Integer.MIN_VALUE;
+    }
+    return a - b;
+}
